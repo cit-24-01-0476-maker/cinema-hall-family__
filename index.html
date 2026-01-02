@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cinema Hall Family</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <div class="logo">🎬 Cinema Hall Family</div>
+
+    <input class="search-bar" placeholder="Search movies...">
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="#" onclick="openModal('requestModal')">Request Movie</a>
+      <a href="#" onclick="openModal('loginModal')">Login</a>
+      <a class="btn outline" href="#" onclick="openModal('signupModal')">Sign Up</a>
+    </nav>
+
+    <button class="menu-btn">☰</button>
+  </div>
+</header>
+
+<section class="hero-simple">
+  <h1>Cinema Hall Family</h1>
+  <p>Premium Sinhala cinematic experience</p>
+  <a href="#movies" class="btn primary">Browse Movies</a>
+</section>
+
+<section id="movies" class="container">
+  <h2>Sinhala Movies</h2>
+  <div class="movie-grid" id="movieGrid"></div>
+</section>
+
+<footer>
+  <p>📧 support@cinemahallfamily.com</p>
+  <p>Only licensed / public-domain content</p>
+</footer>
+
+<!-- REQUEST MOVIE -->
+<div class="modal" id="requestModal">
+  <div class="modal-box">
+    <h2>🎬 Request a Movie</h2>
+    <a class="btn primary" target="_blank"
+       href="https://chat.whatsapp.com/LUE12DSAPkkK5Z9wirTV7n">WhatsApp</a>
+    <a class="btn outline" href="mailto:support@cinemahallfamily.com">Email</a>
+    <button class="btn outline" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<!-- LOGIN -->
+<div class="modal" id="loginModal">
+  <div class="modal-box">
+    <h2>Login</h2>
+    <button class="btn primary" onclick="googleLogin()">Continue with Google</button>
+    <button class="btn outline" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<!-- SIGN UP -->
+<div class="modal" id="signupModal">
+  <div class="modal-box">
+    <h2>Create Account</h2>
+    <input placeholder="Name">
+    <input placeholder="Email">
+    <input placeholder="WhatsApp">
+    <button class="btn primary">Create Account</button>
+    <button class="btn outline" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<script src="assets/js/app.js"></script>
+
+<!-- FIREBASE GOOGLE LOGIN -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged }
+  from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDCB94jjNbjkExaiYmEmNjNDL9F7BHRri4",
+    authDomain: "cinema-hall-family.firebaseapp.com",
+    projectId: "cinema-hall-family",
+    storageBucket: "cinema-hall-family.firebasestorage.app",
+    messagingSenderId: "382962732446",
+    appId: "1:382962732446:web:048280487827da09755a8f"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider();
+
+  window.googleLogin = () => {
+    signInWithPopup(auth, provider)
+      .then(res => {
+        closeModal();
+        updateUserUI(res.user);
+      })
+      .catch(err => alert(err.message));
+  };
+
+  window.logout = () => signOut(auth).then(()=>location.reload());
+
+  onAuthStateChanged(auth, user => {
+    if(user) updateUserUI(user);
+  });
+
+  function updateUserUI(user){
+    document.getElementById("navLinks").innerHTML = `
+      <span class="user-name">Hi, ${user.displayName}</span>
+      <a href="#" onclick="logout()">Logout</a>
+    `;
+  }
+</script>
+
+</body>
+</html>

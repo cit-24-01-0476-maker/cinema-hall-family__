@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Movie</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <div class="logo">🎬 Cinema Hall Family</div>
+  </div>
+</header>
+
+<section class="container movie-detail">
+  <div class="movie-poster">
+    <img id="poster">
+  </div>
+
+  <div class="movie-info">
+    <h1 id="title"></h1>
+    <p id="desc"></p>
+
+    <div class="player-wrap">
+      <iframe id="player" allowfullscreen></iframe>
+    </div>
+
+    <div class="download-box">
+      <a id="download" class="btn primary" target="_blank">Instant Download</a>
+      <a class="btn outline" target="_blank"
+         href="https://chat.whatsapp.com/BgG77CG3vtqJMrGPSI3I7S">WhatsApp</a>
+      <a class="btn outline" target="_blank"
+         href="https://t.me/+LVBMk8d4pXY1YWU1">Telegram</a>
+    </div>
+  </div>
+</section>
+
+<script>
+fetch("data/movies.json")
+.then(r=>r.json())
+.then(data=>{
+  const id=new URLSearchParams(location.search).get("id");
+  const m=data.find(x=>x.id===id);
+  if(!m) return;
+
+  poster.src=m.poster;
+  title.innerText=m.title+" ("+m.year+")";
+  desc.innerText=m.description;
+  player.src=m.watchUrl;
+  download.href=m.downloadUrl;
+});
+</script>
+
+</body>
+</html>

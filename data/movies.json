@@ -1,0 +1,102 @@
+[
+  {
+    "id": "movie-1",
+    "title": "Mandhara",
+    "year": "2024",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/NdWyQVz8/MV5-BYz-I5-NGU0-NTYt-Zm-Nj-Yy00-Nm-Fl-LWE1-NDgt-MTZi-ZTc0-Nj-M3-Yjgy-Xk-Ey-Xk-Fqc-Gc-V1.jpg",
+    "description": "Mandhara (2024) is a Sinhala romantic drama film with deep emotional storytelling.",
+    "watchUrl": "https://drive.google.com/file/d/1zTc55uJyR6vBA3LE5zNx7IRY52TpZXy7/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1zTc55uJyR6vBA3LE5zNx7IRY52TpZXy7"
+  },
+  {
+    "id": "movie-2",
+    "title": "Dadaima",
+    "year": "2024",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/gbnCVrNz/MV5-BNTgx-Mz-Fl-MTAt-NGFi-NS00-Mzlk-LThk-Mzct-ZTRi-Nm-I3-Nj-Q2-Nz-Ew-Xk-Ey-Xk-Fqc-Gc-V1.jpg",
+    "description": "Dadaima (2024) is a Sinhala drama film exploring intense human emotions.",
+    "watchUrl": "https://drive.google.com/file/d/18YIqtu95v5wOYE43s1ssFXu5B8OCHXzV/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=18YIqtu95v5wOYE43s1ssFXu5B8OCHXzV"
+  },
+  {
+    "id": "movie-3",
+    "title": "Kathuru Mithuru",
+    "year": "2025",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/fG4dwyfq/MV5-BMTI2-MGNi-YTMt-ZWIw-Zi00-NWVh-LThk-NTUt-MDM1-MTVl-MWRj-OWIw-Xk-Ey-Xk-Fqc-Gc-V1.jpg",
+    "description": "Kathuru Mithuru (2025) is a Sinhala drama film with strong character-driven storytelling.",
+    "watchUrl": "https://drive.google.com/file/d/1P4cwZk_U_gOFEoR_4E775o95JjAzpdMv/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1P4cwZk_U_gOFEoR_4E775o95JjAzpdMv"
+  },
+  {
+    "id": "movie-4",
+    "title": "Passport",
+    "year": "2024",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/CqY0XmY/MV5-BZDcz-ODgx-NTEt-N2-Mw-OC00-ZGJk-LTlm-NDgt-MTI2-OTU5-Mz-Nh-Nj-Rm-Xk-Ey-Xk-Fqc-Gc-V1-1.jpg",
+    "description": "Passport (2024) is a Sinhala crime thriller film with suspense and mystery.",
+    "watchUrl": "https://drive.google.com/file/d/11CsWDw66unPOjgEPLtoR-5xplUm4oSR1/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=11CsWDw66unPOjgEPLtoR-5xplUm4oSR1"
+  },
+  {
+    "id": "movie-5",
+    "title": "Kaasi Wassi",
+    "year": "2025",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/DHSbSj1m/MV5-BMTY2-M2-Uw-Nm-It-YTdk-MC00-M2-Iw-LWJi-NWQt-NDZi-MWE1-Nz-Jm-YTdj-Xk-Ey-Xk-Fqc-Gc-V1.jpg",
+    "description": "Kaasi Wassi (2025) is a Sinhala drama film focusing on social themes.",
+    "watchUrl": "https://drive.google.com/file/d/1koQHYjt96BZugLcnoI9Or3eDu0WFutGb/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1koQHYjt96BZugLcnoI9Or3eDu0WFutGb"
+  },
+  {
+    "id": "movie-6",
+    "title": "Rider",
+    "year": "2023",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/xSZFGQpb/MV5-BMGQz-Nj-Q1-YWEt-Mj-Nh-OC00-YTI2-LWE4-Yj-Et-Yzcx-Mzg3-N2-Iw-Zm-Nj-Xk-Ey-Xk-Fqc-Gc-V1-FMjpg-UX1000-1.jpg",
+    "description": "Rider (2023) is a Sinhala action-packed drama film.",
+    "watchUrl": "https://drive.google.com/file/d/1mxceqvDtKxy9zYK8wOF0tLf6K4Dc4kPU/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1mxceqvDtKxy9zYK8wOF0tLf6K4Dc4kPU"
+  },
+  {
+    "id": "movie-7",
+    "title": "Rahas Kiyana Kadu",
+    "year": "2024",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/ZpZdTTwK/Rahas-Kiyana-Kandu-537x768.jpg",
+    "description": "Rahas Kiyana Kadu (2024) is a Sinhala mystery drama film.",
+    "watchUrl": "https://drive.google.com/file/d/1e2-TUSJOydVvf5_ol8mXllzHLGRv7FnT/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1e2-TUSJOydVvf5_ol8mXllzHLGRv7FnT"
+  },
+  {
+    "id": "movie-8",
+    "title": "Night Rider",
+    "year": "2022",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/93Gf0J7Q/MV5-BNTM5-N2-Ji-Mm-Et-Nj-Uw-Yy00-Nz-M0-LThk-ZGUt-ZDFh-Yj-Vj-Yz-I5-YTY4-Xk-Ey-Xk-Fqc-Gc-V1-FMjpg-UX1000.jpg",
+    "description": "Night Rider (2022) is a Sinhala action thriller film.",
+    "watchUrl": "https://drive.google.com/file/d/15nnkJwq6TJS5R7_KvoSXWinKAvq3phlY/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=15nnkJwq6TJS5R7_KvoSXWinKAvq3phlY"
+  },
+  {
+    "id": "movie-9",
+    "title": "Tsunami",
+    "year": "2020",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/fVL6FkGY/MV5-BZDA3-Yz-Q4-ZTAt-Yz-Ez-Zi00-Nj-Y2-LWFl-ZDEt-MTcx-MTUw-Mz-U5-NDky-Xk-Ey-Xk-Fqc-Gc-V1-FMjpg-UX1000.jpg",
+    "description": "Tsunami (2020) is a Sinhala disaster-based drama film.",
+    "watchUrl": "https://drive.google.com/file/d/123kO1TizCUlNdIrB-O-v47nKPeexRkdI/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=123kO1TizCUlNdIrB-O-v47nKPeexRkdI"
+  },
+  {
+    "id": "movie-10",
+    "title": "Seda Mawathe",
+    "year": "2020",
+    "category": "Sinhala",
+    "poster": "https://i.ibb.co/RkjTm88T/images.jpg",
+    "description": "Seda Mawathe (2020) is a Sinhala emotional drama film.",
+    "watchUrl": "https://drive.google.com/file/d/15uWuwllv9e96I-tHlZTE-37bLbXsuK_7/preview",
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=15uWuwllv9e96I-tHlZTE-37bLbXsuK_7"
+  }
+]
